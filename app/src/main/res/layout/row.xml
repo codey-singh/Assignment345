@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/row_item"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/mealName"
+        android:layout_width="243dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="158dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_toEndOf="@+id/qty"
+        android:text="Total" />
+
+    <TextView
+        android:id="@+id/qty"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="258dp"
+        android:text="Qty" />
+</RelativeLayout>
